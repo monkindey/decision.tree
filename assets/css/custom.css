@@ -1,0 +1,111 @@
+ol {
+	list-style: decimal inside;
+}
+
+#grid {
+	margin: 50px auto;
+	width: 650px;
+}
+
+/*决策树*/
+.mermaid {
+	width: 650px;
+	height: 400px;
+	margin: 0 auto;
+	font: bold 16px consolas;
+	background-color: #eee;
+	border: 3px solid rgb(61, 103, 166);
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+/*预测数据展示*/
+#predict {
+	width: 650px;
+	margin: 20px auto;
+}
+
+/*预测结果*/
+#result {
+	width: 650px;
+	margin: 20px auto;
+}
+
+#result h3 {
+	padding: 10px;
+	background-color: rgb(61, 103, 166);
+	color: white;
+	font-family: 'consolas';
+}
+
+#result li {
+	padding: 5px;
+	font: bold 16px consolas;
+	border-bottom: 1px dashed;
+}
+
+#result li img {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+
+/*表格title样式*/
+.grid-header {
+	padding: 8px;
+	font: bold 14px 'consolas';
+	color: rgb(61, 103, 166);
+}
+
+/*不同等级的不同样式*/
+.best, .better, .bad {
+	font: bold 16px 'consolas' !important;
+}
+.best {
+	color: green;
+}
+.better {
+	color: rgb(255, 128, 0);
+}
+.bad {
+	color: red;		
+}
+
+/*表格列头部*/
+.grid-hd {
+	padding: 5px;
+	display: inline-block;
+	width: 87%;
+	height: 100%;
+	font: bold 12px 'consolas';
+	border-radius: 3px;
+	color: white;
+}
+
+.grade {
+	background-color: rgb(66, 134, 245);
+}
+
+.sgrade {
+	background-color: rgb(220, 67, 54);
+}
+
+.igrade {
+	background-color: rgb(14,162,100);
+}
+
+.morality {
+	background-color: rgb(17, 43, 58);
+}
+
+.obtain {
+	width: 60%;
+	background-color: rgb(0, 159, 93);
+}
+
+/*查看决策树*/
+.btn-view {
+	padding: 5px;
+	font: bold 14px 'consolas' !important;
+	color: rgb(61, 103, 166);
+}

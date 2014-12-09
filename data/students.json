@@ -1,0 +1,143 @@
+/**
+ * @author monkindey
+ * @date 2014.12.6
+ *
+ * 1. GPA(grade point average)绩点
+ * [0, 75) C, [75, 85) B, [85, 100] A
+ * 2. innovative 创新实践
+ * [0, 15] C, (15, 30) B, (30, 100] A
+ * 3. social 社会实践
+ * [0, 25) C, [25, 50) B, [50, 100] A
+ * 4. morality 品德分 (>=80 pass | <80 no)
+ * 5. obtain (yes|no)
+ *
+ * 保持样本的可靠性，抽样到每一个宿舍里
+ * 632 ~ 654 每一间宿舍找一个出来 女生找出两个
+ */
+
+{
+	"students": [{
+		"grade": "B",
+		"igrade": "B",
+		"sgrade": "A",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "A",
+		"igrade": "A",
+		"sgrade": "A",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "B",
+		"igrade": "B",
+		"sgrade": "B",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "A",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "no",
+		"obtain": "no"
+
+	}, {
+		"grade": "C",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "no",
+		"obtain": "no"
+
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "B",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "A",
+		"igrade": "C",
+		"sgrade": "B",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "C",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "C",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "A",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"igrade": "B",
+		"sgrade": "B",
+		"morality": "pass",
+		"obtain": "no"
+	}],
+	"test": [{ // 李旭欣
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "A",
+		"morality": "pass",
+		"obtain": "yes"
+	}, { // 黄劲
+		"grade": "B",
+		"igrade": "C",
+		"sgrade": "C",
+		"morality": "pass",
+		"obtain": "yes"
+	}, { // 张楷豪
+		"grade": "B",
+		"igrade": "B",
+		"sgrade": "B",
+		"morality": "no",
+		"obtain": "no"
+	}, { // 黄炜东
+		"grade": "B",
+		"igrade": "A",
+		"sgrade": "A",
+		"morality": "pass",
+		"obtain": "yes"
+	}]
+}

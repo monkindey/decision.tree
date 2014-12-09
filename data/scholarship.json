@@ -1,0 +1,165 @@
+/**
+ * @author monkindey
+ * @date 2014.12.6
+ *
+ * 1. GPA(grade point average)绩点
+ * [0, 75) C, [75, 85) B, [85, 100] A
+ * 2. innovative 创新实践
+ * [0, 15] C, (15, 30) B, (30, 100] A
+ * 3. social 社会实践
+ * [0, 25) C, [25, 50) B, [50, 100] A
+ * 4. morality 品德分 (>=80 pass | <80 no)
+ * 5. obtain (yes|no)
+ *
+ * 保持样本的可靠性，抽样到每一个宿舍里
+ * 632 ~ 654 每一间宿舍找一个出来 女生找出两个
+ */
+{
+	"students": [{
+		"grade": "B",
+		"gpa": "78",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"gpa": "90",
+		"grade": "A",
+		"igrade": "A",
+		"innovative": "32",
+		"sgrade": "A",
+		"social": "93",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"gpa": "80",
+		"grade": "B",
+		"igrade": "B",
+		"innovative": "23",
+		"sgrade": "B",
+		"social": "30",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "A",
+		"gpa": "86",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "20",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "B",
+		"gpa": "78",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "no",
+		"obtain": "no"
+
+	}, {
+		"grade": "C",
+		"gpa": "72",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "no",
+		"obtain": "no"
+
+	}, {
+		"grade": "B",
+		"gpa": "78",
+		"igrade": "C",
+		"innovative": "15",
+		"social": "35",
+		"sgrade": "B",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "A",
+		"gpa": "89",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "B",
+		"social": "40",
+		"morality": "pass",
+		"obtain": "yes"
+	}, {
+		"grade": "C",
+		"gpa": "71",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "81",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "77",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "77",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "5",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "C",
+		"gpa": "71",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "0",
+		"morality": "pass",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "77",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "C",
+		"social": "20",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "81",
+		"igrade": "C",
+		"innovative": "15",
+		"sgrade": "A",
+		"social": "70",
+		"morality": "no",
+		"obtain": "no"
+	}, {
+		"grade": "B",
+		"gpa": "77",
+		"igrade": "B",
+		"innovative": "26",
+		"sgrade": "B",
+		"social": "38",
+		"morality": "pass",
+		"obtain": "no"
+	}]
+}

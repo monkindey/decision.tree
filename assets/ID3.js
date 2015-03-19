@@ -82,7 +82,7 @@
 		return entropy;
 	};
 
-	// 划分子集
+	// 根据属性来划分子集
 	var divideSubset = function(set, prop) {
 		var subsets = {};
 		var subset;
@@ -317,7 +317,6 @@
 		ol.innerHTML += html;
 		resultElement.appendChild(ol);
 	};
-
 
 
 	// 主要执行的代码

@@ -1,9 +1,6 @@
 ####页面展示
 > [ID3决策树](http://www.monkindey.xyz/decision.tree/index.html)
 
-####具体内容
-通过属性来分析然后分析结果
-
 ####运行环境
 1. 基于`grunt`构建，你需要有`nodejs`和`grunt-cli`
 2. 尽量使用*高级*的浏览器

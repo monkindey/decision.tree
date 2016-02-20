@@ -10,3 +10,6 @@
 2. 项目的构建配置，模块化思想的应用
 3. 提高JavaScript的逻辑处理能力
 4. 自定义事件的巧妙运用，让两个js文件互相通信
+
+#### 背景
+[这两周的学校生涯回顾](http://blog.csdn.net/monkindey/article/details/41812931)
